@@ -1,0 +1,31 @@
+<div id="profile" class="container col-12 col-md-6 mx-auto text-center">
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <!-- Profile Image -->
+    <img src="./assets/profile.jpeg" alt="Profile image" class="rounded-circle img-fluid profile-pic mb-3">
+    
+    <!-- Profile Details -->
+    <p class="fs-2">Hola! I'm</p>
+    <h1 class="fw-bold">Krishmeet Singh</h1>
+    <p class="subtitle fs-4">Associate Software Engineer at 
+      <a href="https://www.biz2x.com/india/">Biz2X</a> | 
+      <a href="https://www.biz2credit.com/">Biz2credit</a>
+    </p>
+    <p>Noida, Delhi NCR</p>
+    
+    <!-- Action Buttons -->
+    <div class="d-flex justify-content-center mt-4">
+      <button class="bt btn-color-2 me-2" (click)="openResume()">
+        Download CV
+      </button>
+      <button class="bt btn-color-1" (click)="scrollTo('contacts')">
+        Contact Me
+      </button>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="d-flex justify-content-center mt-3">
+      <i class="fab fa-linkedin fa-3x icon mx-2 pointer" (click)="goToLinkedin()"></i>
+      <i class="fab fa-github fa-3x icon mx-2 pointer" (click)="goToGithub()"></i>
+    </div>
+  </div>
+</div>

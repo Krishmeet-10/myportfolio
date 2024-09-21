@@ -1,0 +1,17 @@
+.experience-items {
+  padding: 60px 0;
+  display: flex; /* Use flex to arrange items */
+  justify-content: center; /* Center the items */
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.experience-slide {
+  display: flex; /* Use flexbox for direct display */
+}
+
+// Adjust item-img styles
+.item-img {
+  height: 80px;
+  width: auto;
+  margin: 0 20px; /* Adjust margin as needed */
+}
